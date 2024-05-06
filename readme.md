@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Este es un programa simple que te permite cargar una base de datos de películas desde un archivo CSV y realizar búsquedas por ID, género, década, o una o
+Este es un programa simple que te permite cargar una base de datos de películas desde un archivo CSV y realizar búsquedas por ID, género, década, o una combinación de género y década.
 
 ## Cómo compilar y ejecutar
 
@@ -25,66 +25,23 @@ Todas las funciones: Cargar Películas, Buscar por ID, Buscar por Género, Busca
 ### A mejorar:
 
 - La función *buscar_por_genero_y_decada* podría mostrar los géneros de las películas que encuentra. 
-- Eficiencia en cuanto a tiempo de 
+- Eficiencia en cuanto a tiempo de ejecución.
 
 ## Ejemplo de uso
 
-**Paso 1: Cargar Películas**
+1. **Cargar Películas:** Permite cargar películas desde un archivo CSV ubicado en la carpeta "data". Este archivo debe seguir un formato específico y contener información sobre las películas, como el ID, título, géneros, director y año de lanzamiento.
+2. **Buscar por ID:** Permite buscar y mostrar la información de una película específica ingresando su ID.
+3. **Buscar por Género:** Permite buscar y mostrar películas que pertenecen a un género específico ingresado por el usuario.
+4. **Buscar por Década:** Permite buscar y mostrar películas lanzadas en una década específica ingresada por el usuario.
+5. **Buscar por Género y Década:** Permite buscar y mostrar películas que pertenecen a un género específico y fueron lanzadas en una década específica, ambas ingresadas por el usuario.
+6. **Salir:** Cierra el programa y finaliza la ejecución.
 
-Se comienza registrando un nuevo paciente que acaba de llegar al hospital.
+## Contribuciones
 
-```
-Opción seleccionada: 1) Registrar paciente
-Ingrese el nombre del paciente: Ana Martínez
-Ingrese la edad del paciente: 29
-Ingrese el síntoma del paciente: Dolor abdominal agudo
-```
-
-El sistema registra a Ana Martínez con una prioridad inicial "Bajo" y guarda la hora actual de registro. La prioridad inicial puede ser ajustada más tarde basada en una evaluación médica más detallada.
-
-**Paso 2: Asignar Prioridad a un Paciente**
-
-Tras una evaluación inicial, el médico determina que el estado de Ana requiere atención prioritaria.
-
-```
-Opción seleccionada: 2) Asignar prioridad a paciente
-Ingrese el nombre del paciente: Ana Martínez
-Seleccione el nuevo nivel de prioridad (Alto, Medio, Bajo): Alto
-```
-
-El sistema actualiza la prioridad de Ana Martínez a "Alto", asegurando que será una de las próximas pacientes en ser atendida.
-
-**Paso 3: Ver la Lista de Espera**
-
-El usuario revisa la lista de espera para ver todos los pacientes y sus prioridades.
-
-```
-Opción seleccionada: 3) Mostrar lista de espera
-```
-
-La lista muestra a Ana Martínez en la parte superior, indicando su prioridad alta y que es la siguiente en línea para recibir atención.
-
-**Paso 4: Atender al Siguiente Paciente**
-
-Ana Martínez es llamada para ser atendida basándose en su prioridad.
-
-```
-Opción seleccionada: 4) Atender al siguiente paciente
-```
-
-El sistema muestra que Ana Martínez está siendo atendida y la elimina de la lista de espera.
-
-## Contribuciones (si son dos personas o más)
-
-### Javier Bardem:
-
-- Desarrolló las funciones básicas para agregar y ver tareas.
-- Diseño inicial de la interfaz de usuario.
-- **Auto-evaluación**: 2 (Aporte bueno).
-
-### Penélope Cruz:
-
-- Implementó la función de eliminar tareas.
-- Documentación y comentarios en el código.
-- Diseño y redacción del README.
-- **Auto-evaluación**: 3 (Aporte excelente).
+### Lucas Salamanca
+- Programación del código.
+- Implementación de todas las funciones.
+- Redacción del README.
+### CHATGPT ( mención honorífica )
+- Comprobación y correción de código de prueba.
+- Estructurar README.
